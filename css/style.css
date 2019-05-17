@@ -1,0 +1,35 @@
+@charset "utf-8";
+img {
+	width: 100%;
+	object-fit: cover
+}
+a img:hover {
+	transform: scale(1.03);
+}
+.container .row.justify-content-center .col-sm-6.text-center {
+	margin-top: 12rem;
+}
+.container .row.justify-content-center .col-sm-6.text-center img {
+	max-width: 75%;
+}
+.container a {
+	color: black;
+}
+.container i {
+	font-size: 1.1rem;
+}
+.card.border-secondary {
+	max-width: 40rem;
+}
+.container .row.my-2 .col-sm-8 a img {
+	height: 9rem;
+}
+.ck.ck-editor__editable > .ck-placeholder::before {
+    font-size: 1.7rem;
+}
+.container.pb-4 img {
+	height: 100%;
+}
+.container.pb-4 i {
+	font-size: 1.8rem;
+}
