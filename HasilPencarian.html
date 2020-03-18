@@ -1,167 +1,302 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Hasil Pencarian</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css"/>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
-<link rel="stylesheet" href="css/style.css"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="js/popover.js"></script>
-</head>
-<body>
-<nav class="navbar sticky-top navbar-expand navbar-light bg-light">
-  <div class="container">
-    <div class="row collapse navbar-collapse justify-content-center justify-content-sm-start" id="navbarColor03"> <a class="col-sm-3" href="Home.html"> <img src="media/Logo.png" alt=""> </a>
-      <div class="col-sm-6 input-group">
-        <input type="text" class="form-control" placeholder="Masukkan teks hoaks">
-        <div class="input-group-append">
-          <button class="btn btn-outline-secondary btn-sm fas fa-search fa-sm" type="submit" onclick="window.location.href = 'HasilPencarian.html';"></button>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Hasil Pencarian</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/materia/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/popover.js"></script>
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand navbar-light bg-light">
+      <div class="container">
+        <div
+          class="row collapse navbar-collapse justify-content-center justify-content-sm-start"
+          id="navbarColor03"
+        >
+          <a class="col-sm-3" href="index.html">
+            <img src="media/Logo.png" alt="" />
+          </a>
+          <div class="col-sm-6 input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Masukkan teks hoaks"
+            />
+            <div class="input-group-append">
+              <button
+                class="btn btn-outline-secondary btn-sm fas fa-search fa-sm"
+                type="submit"
+                onclick="window.location.href = 'HasilPencarian.html';"
+              ></button>
+            </div>
+          </div>
+          <ul class="col-sm-3 navbar-nav">
+            <li class="col-sm-4 nav-item">
+              <a class="nav-link" href="Blog.html">BLOG</a>
+            </li>
+            <li class="col-sm-4 nav-item">
+              <a class="nav-link" href="Masuk.html">MASUK</a>
+            </li>
+            <li class="col-sm-4 nav-item">
+              <a class="nav-link" href="Daftar.html">DAFTAR</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <ul class="col-sm-3 navbar-nav">
-        <li class="col-sm-4 nav-item"> <a class="nav-link" href="Blog.html">BLOG</a> </li>
-        <li class="col-sm-4 nav-item"> <a class="nav-link" href="Masuk.html">MASUK</a> </li>
-        <li class="col-sm-4 nav-item"> <a class="nav-link" href="Daftar.html">DAFTAR</a> </li>
-      </ul>
+    </nav>
+    <div class="container">
+      <div class="row my-4">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#">Images</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#">More</a>
+          </li>
+        </ul>
+      </div>
+      <div class="row">
+        <h2 class="col-sm-9 my-2">
+          <a href="HasilPencarianAdv.html">Hasil pencarian 1</a>
+        </h2>
+        <button
+          type="button"
+          class="col-sm-1 btn btn-danger ml-3"
+          data-container="body"
+          data-toggle="popover"
+          data-placement="bottom"
+          title="Seberapa yakin?"
+          data-content="Algoritme kami menyimpulkan 85% yakin."
+        >
+          HOAKS
+        </button>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Berita</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh Kompas</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="col-sm-9 my-2">
+          <a href="HasilPencarianAdv.html">Hasil pencarian 2</a>
+        </h2>
+        <button
+          type="button"
+          class="col-sm-1 btn btn-success ml-3"
+          data-container="body"
+          data-toggle="popover"
+          data-placement="bottom"
+          title="Seberapa yakin?"
+          data-content="Algoritme kami menyimpulkan 85% yakin."
+        >
+          ASLI
+        </button>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Berita</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh VIVA News</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Berita</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh Kompas</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="col-sm-9 my-2">
+          <a href="HasilPencarianAdv.html">Hasil pencarian 3</a>
+        </h2>
+        <button
+          type="button"
+          class="col-sm-1 btn btn-danger ml-3"
+          data-container="body"
+          data-toggle="popover"
+          data-placement="bottom"
+          title="Seberapa yakin?"
+          data-content="Algoritme kami menyimpulkan 85% yakin."
+        >
+          HOAKS
+        </button>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Berita</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh Detik</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="col-sm-9 my-2">
+          <a href="HasilPencarianAdv.html">Hasil pencarian 4</a>
+        </h2>
+        <button
+          type="button"
+          class="col-sm-1 btn btn-danger ml-3"
+          data-container="body"
+          data-toggle="popover"
+          data-placement="bottom"
+          title="Seberapa yakin?"
+          data-content="Algoritme kami menyimpulkan 85% yakin."
+        >
+          HOAKS
+        </button>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Berita</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh Kompas</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="col-sm-1 my-2">Klarifikasi</h6>
+        <a class="col-sm-6 my-2" href="Klarifikasi.html"
+          >Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+          sed diam voluptua. At vero eos et accusam et justo duo…</a
+        >
+        <div class="col-sm-2 my-2 align-self-start">
+          <h6>Oleh ElingP</h6>
+          <h6>17 Maret 2012</h6>
+        </div>
+      </div>
+      <div class="row mt-3 justify-content-center">
+        <ul class="pagination pagination-sm">
+          <li class="page-item disabled">
+            <a class="page-link" href="#">&laquo;</a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-<div class="container">
-  <div class="row my-4">
-    <ul class="nav nav-tabs">
-      <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#">All</a> </li>
-      <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#">Images</a> </li>
-      <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#">Videos</a> </li>
-      <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#">More</a> </li>
-    </ul>
-  </div>
-  <div class="row">
-    <h2 class="col-sm-9 my-2"><a href="HasilPencarianAdv.html">Hasil pencarian 1</a></h2>
-    <button type="button" class="col-sm-1 btn btn-danger ml-3" data-container="body" data-toggle="popover" data-placement="bottom" title="Seberapa yakin?" data-content="Algoritme kami menyimpulkan 85% yakin.">HOAKS</button>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Berita</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh Kompas</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h2 class="col-sm-9 my-2"><a href="HasilPencarianAdv.html">Hasil pencarian 2</a></h2>
-    <button type="button" class="col-sm-1 btn btn-success ml-3" data-container="body" data-toggle="popover" data-placement="bottom" title="Seberapa yakin?" data-content="Algoritme kami menyimpulkan 85% yakin.">ASLI</button>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Berita</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh VIVA News</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Berita</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh Kompas</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h2 class="col-sm-9 my-2"><a href="HasilPencarianAdv.html">Hasil pencarian 3</a></h2>
-    <button type="button" class="col-sm-1 btn btn-danger ml-3" data-container="body" data-toggle="popover" data-placement="bottom" title="Seberapa yakin?" data-content="Algoritme kami menyimpulkan 85% yakin.">HOAKS</button>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Berita</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh Detik</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h2 class="col-sm-9 my-2"><a href="HasilPencarianAdv.html">Hasil pencarian 4</a></h2>
-    <button type="button" class="col-sm-1 btn btn-danger ml-3" data-container="body" data-toggle="popover" data-placement="bottom" title="Seberapa yakin?" data-content="Algoritme kami menyimpulkan 85% yakin.">HOAKS</button>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Berita</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh Kompas</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row">
-    <h6 class="col-sm-1 my-2">Klarifikasi</h6>
-    <a class="col-sm-6 my-2" href="Klarifikasi.html">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo…</a>
-    <div class="col-sm-2 my-2 align-self-start">
-      <h6>Oleh ElingP</h6>
-      <h6>17 Maret 2012</h6>
-    </div>
-  </div>
-  <div class="row mt-3 justify-content-center">
-    <ul class="pagination pagination-sm">
-      <li class="page-item disabled"> <a class="page-link" href="#">&laquo;</a> </li>
-      <li class="page-item active"> <a class="page-link" href="#">1</a> </li>
-      <li class="page-item"> <a class="page-link" href="#">2</a> </li>
-      <li class="page-item"> <a class="page-link" href="#">3</a> </li>
-      <li class="page-item"> <a class="page-link" href="#">4</a> </li>
-      <li class="page-item"> <a class="page-link" href="#">5</a> </li>
-      <li class="page-item"> <a class="page-link" href="#">&raquo;</a> </li>
-    </ul>
-  </div>
-</div>
-</body>
+  </body>
 </html>
